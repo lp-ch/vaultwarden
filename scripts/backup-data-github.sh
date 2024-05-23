@@ -5,7 +5,7 @@ tar -czf /backup.tar.gz /data
 
 #Encrypt File and Upload to GitHub
 echo "$PASS" | gpg --batch --yes --passphrase-fd 0 --cipher-algo AES256 --symmetric backup.tar.gz
-GITHUB_USER="MartinatorTime"
+GITHUB_USER="lp-ch"
 REPO_NAME="vaultwarden"
 TAG="FLY-DATA"
 
