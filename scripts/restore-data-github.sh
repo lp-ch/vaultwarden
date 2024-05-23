@@ -6,7 +6,7 @@
 
 # Your oauth token goes here, see link above
 # Repo owner (user id)
-OWNER="MartinatorTime"
+OWNER="lp-ch"
 # Repo name
 REPO="vaultwarden"
 # The file name expected to download. This is deleted before curl pulls down a new one
